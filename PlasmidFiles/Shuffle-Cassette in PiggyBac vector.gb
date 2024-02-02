@@ -1,0 +1,140 @@
+LOCUS       oSP985_loxPsym_i        3786 bp DNA     circular SYN 01-FEB-2024
+DEFINITION  synthetic circular DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 3786)
+  AUTHORS   Sudarshan Pinglay
+  TITLE     Direct Submission
+  JOURNAL   Exported Feb 1, 2024 from SnapGene 6.2.2
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..3786
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     primer_bind     812..831
+                     /label=BII(R)
+     misc_feature    870..873
+                     /label=TTAA
+     misc_feature    874..936
+                     /label=5'PB Terminal Repeat
+     misc_feature    874..886
+                     /label=13 bp terminal repeat (TR)
+     misc_feature    887..917
+                     /label=31 bp spacer
+     misc_feature    918..936
+                     /label=19 bp Internal Repeat
+     misc_feature    937..981
+                     /label=Upstream scaffold
+     promoter        986..1004
+                     /label=T7 promoter
+                     /note="promoter for bacteriophage T7 RNA polymerase"
+     misc_feature    complement(1016..1037)
+                     /label=10X CaptureSequence2
+     gap             1038..1057
+                     /estimated_length=20
+     protein_bind    1058..1091
+                     /label=loxPsym
+                     /bound_moiety="Cre recombinase"
+                     /note="loxPsym has a symmetric spacer region, and loxPsym 
+                     sites are capable of recombining in either orientation 
+                     (Hoess et al., 1986)."
+     gap             1092..1111
+                     /estimated_length=20
+     misc_feature    1112..1133
+                     /label=10X CaptureSequence1
+     promoter        complement(1143..1161)
+                     /label=T7 promoter
+                     /note="promoter for bacteriophage T7 RNA polymerase"
+     misc_feature    1166..1239
+                     /label=Downstream scaffold
+     misc_feature    1240..1274
+                     /label=3' PB Terminal Repeat
+     misc_feature    1240..1258
+                     /label=19 bp Internal Repeat(IR)
+     misc_feature    1259..1261
+                     /label=3 bp spacer
+     misc_feature    1262..1274
+                     /label=13 bp Terminal Repeat (TR)
+     misc_feature    1275..1278
+                     /label=TTAA
+     misc_feature    complement(1481..1500)
+                     /label=Potential primer mismatch
+     primer_bind     complement(1793..1812)
+                     /label=pLac(F)
+     misc_feature    1966..1990
+                     /label=5' gibson overhang
+     misc_feature    1994..2018
+                     /label=3' gibson overhang
+     misc_feature    2167..2755
+                     /label=ORI (mismatch with STAR by 1)
+     CDS             complement(2929..3786)
+                     /label=Amp
+ORIGIN
+        1 actcttcctt tttcaatatt attgaagcat ttatcagggt tattgtctca tgagcggata
+       61 catatttgaa tgtatttaga aaaataaaca aataggggtt ccgcgcacat ttccccgaaa
+      121 agtgccacct aaattgtaag cgttaatatt ttgttaaaat tcgcgttaaa tttttgttaa
+      181 atcagctcat tttttaacca ataggccgaa atcggcaaaa tcccttataa atcaaaagaa
+      241 tagaccgaga tagggttgag tgttgttcca gtttggaaca agagtccact attaaagaac
+      301 gtggactcca acgtcaaagg gcgaaaaacc gtctatcagg gcgatggccc actacgtgaa
+      361 ccatcaccct aatcaagttt tttggggtcg aggtgccgta aagcactaaa tcggaaccct
+      421 aaagggagcc cccgatttag agcttgacgg ggaaagccgg cgaacgtggc gagaaaggaa
+      481 gggaagaaag cgaaaggagc gggcgctagg gcgctggcaa gtgtagcggt cacgctgcgc
+      541 gtaaccacca cacccgccgc gcttaatgcg ccgctacagg gcgcgtccca ttcgccattc
+      601 aggctgcgca actgttggga agggcgatcg gtgcgggcct cttcgctatt acgccagctg
+      661 gcgaaagggg gatgtgctgc aaggcgatta agttgggtaa cgccagggtt ttcccagtca
+      721 cgacgttgta aaacgacggc cagtgagcgc gcctcgttca ttcacgtttt tgaacccgtg
+      781 gaggacgggc agactcgcgg tgcaaatgtg ttttacagcg tgatggagca gatgaagatg
+      841 ctcgacacgc tgcagaacac gcagctagat taaccctaga aagataatca tattgtgacg
+      901 tacgttaaag ataatcatgt gtaaaattga cgcatgacta gatcatgcta gctgcttcag
+      961 ccgctacccc gaccacatga agcagtaata cgactcacta tagggttttt tttttcctta
+     1021 gccgctaata ggtgagcnnn nnnnnnnnnn nnnnnnnata acttcgtata atgtacatta
+     1081 tacgaagtta tnnnnnnnnn nnnnnnnnnn ngctttaagg ccggtcctag caaaaaaaaa
+     1141 accctatagt gagtcgtatt aacgagaagc gcgatgacat ggtctgcagg ccttgtgact
+     1201 gggaaaaccc tggcgtaaat aaaatacgaa atgactagtc atgcgtcaat tttacgcaga
+     1261 ctatctttct agggttaatc tagctgcatc aggatcatat cgtcgggtct tttttccggc
+     1321 tcagtcatcg cccaagctgg cgctatctgg gcatcgggga ggaagaagcc cgtgcctttt
+     1381 cccgcgaggt tgaagcggca tggaaagagt ttgccgagga tgactgctgc tgcattgacg
+     1441 ttgagcgaaa acgcacgttt accatgatga ttcgggaagg tgtggccatg cacgccttta
+     1501 acggtgaact gttcgttcag gccacctggg ataccagttc gtcgcggctt ttccggacac
+     1561 agttccggat ggtcagcccg aagcgcatca gcaacccgaa caataccggc gacagccgga
+     1621 actgccgtgc cggtgtgcag attaatgaca gcggtgcggc gctgggatat tacgtcagcg
+     1681 aggacgggta tcctggctgg atgccgcaga aatggacatg gataccccgt gagttacccg
+     1741 gcgggcgcgc ttggcgtaat catggtcata gctgtttcct gtgtgaaatt gttatccgct
+     1801 cacaattcca cacaacatac gagccggaag cataaagtgt aaagcctggg gtgcctaatg
+     1861 agtgagctaa ctcacattaa ttgcgttgcg ctcactgccc gctttccagt cgggaaacct
+     1921 gtcgtgccag ctgcattaat gaatcggcca acgcgcgggg agaggcggtt tgcgtattgg
+     1981 gcgctcttcc gcttcctcgc tcactgactc gctgcgctcg gtcgttcggc tgcggcgagc
+     2041 ggtatcagct cactcaaagg cggtaatacg gttatccaca gaatcagggg ataacgcagg
+     2101 aaagaacatg tgagcaaaag gccagcaaaa ggccaggaac cgtaaaaagg ccgcgttgct
+     2161 ggcgtttttc cataggctcc gcccccctga cgagcatcac aaaaatcgac gctcaagtca
+     2221 gaggtggcga aacccgacag gactataaag ataccaggcg tttccccctg gaagctccct
+     2281 cgtgcgctct cctgttccga ccctgccgct taccggatac ctgtccgcct ttctcccttc
+     2341 gggaagcgtg gcgctttctc atagctcacg ctgtaggtat ctcagttcgg tgtaggtcgt
+     2401 tcgctccaag ctgggctgtg tgcacgaacc ccccgttcag cccgaccgct gcgccttatc
+     2461 cggtaactat cgtcttgagt ccaacccggt aagacacgac ttatcgccac tggcagcagc
+     2521 cactggtaac aggattagca gagcgaggta tgtaggcggt gctacagagt tcttgaagtg
+     2581 gtggcctaac tacggctaca ctagaaggac agtatttggt atctgcgctc tgctgaagcc
+     2641 agttaccttc ggaaaaagag ttggtagctc ttgatccggc aaacaaacca ccgctggtag
+     2701 cggtggtttt tttgtttgca agcagcagat tacgcgcaga aaaaaaggat ctcaagaaga
+     2761 tcctttgatc ttttctacgg ggtctgacgc tcagtggaac gaaaactcac gttaagggat
+     2821 tttggtcatg agattatcaa aaaggatctt cacctagatc cttttaaatt aaaaatgaag
+     2881 ttttaaatca atctaaagta tatatgagta aacttggtct gacagttacc aatgcttaat
+     2941 cagtgaggca cctatctcag cgatctgtct atttcgttca tccatagttg cctgactccc
+     3001 cgtcgtgtag ataactacga tacgggaggg cttaccatct ggccccagtg ctgcaatgat
+     3061 accgcgagac ccacgctcac cggctccaga tttatcagca ataaaccagc cagccggaag
+     3121 ggccgagcgc agaagtggtc ctgcaacttt atccgcctcc atccagtcta ttaattgttg
+     3181 ccgggaagct agagtaagta gttcgccagt taatagtttg cgcaacgttg ttgccattgc
+     3241 tacaggcatc gtggtgtcac gctcgtcgtt tggtatggct tcattcagct ccggttccca
+     3301 acgatcaagg cgagttacat gatcccccat gttgtgcaaa aaagcggtta gctccttcgg
+     3361 tcctccgatc gttgtcagaa gtaagttggc cgcagtgtta tcactcatgg ttatggcagc
+     3421 actgcataat tctcttactg tcatgccatc cgtaagatgc ttttctgtga ctggtgagta
+     3481 ctcaaccaag tcattctgag aatagtgtat gcggcgaccg agttgctctt gcccggcgtc
+     3541 aatacgggat aataccgcgc cacatagcag aactttaaaa gtgctcatca ttggaaaacg
+     3601 ttcttcgggg cgaaaactct caaggatctt accgctgttg agatccagtt cgatgtaacc
+     3661 cactcgtgca cccaactgat cttcagcatc ttttactttc accagcgttt ctgggtgagc
+     3721 aaaaacagga aggcaaaatg ccgcaaaaaa gggaataagg gcgacacgga aatgttgaat
+     3781 actcat
+//
