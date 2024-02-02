@@ -51,7 +51,7 @@ ls *_ITR.fastq.gz | cut -d"." -f 1 | parallel --gnu "sam2bed < mapped/{}.sam > m
 
 echo "Intersecting with known variants..."
 ls mapped/*_ITR.bed | cut -d"." -f 1 | parallel --gnu "cut -f1-13 {}.bed | grep '^chr' | sort -k 1,1 -k2,2n > {}.noflag.bed"  #removing flag columns, removing all rows that don't start with "chr" and sorting like variant bed files
-ls mapped/*_ITR.bed | cut -d"." -f 1 | parallel --gnu "bedtools intersect -a {}.noflag.bed -b /net/shendure/vol10/projects/sud/Cast_SNVs-Indels/Cast_SNVs.sorted.bed /net/shendure/vol10/projects/sud/Cast_SNVs-Indels/Cast_Indels.sorted.bed -loj -wa -wb -filenames -sorted > {}.overlappingVariants.txt"
+ls mapped/*_ITR.bed | cut -d"." -f 1 | parallel --gnu "bedtools intersect -a {}.noflag.bed -b /path/to/SNVs/Cast_SNVs.sorted.bed /path/to/Indels/Cast_Indels.sorted.bed -loj -wa -wb -filenames -sorted > {}.overlappingVariants.txt"
 
 echo "Assigning reads to variants..."
 ls mapped/*overlappingVariants.txt | cut -d"." -f 1 | parallel --gnu "python ${bed_filter} {}.overlappingVariants.txt"
