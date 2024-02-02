@@ -1,0 +1,25 @@
+
+Initial pre-processing and quality filtering (GEx): 
+  arr_CR_gex_combined_SP_T7shuffle_parental_20231218.sh
+  arr_CR_gex_combined_SP_T7shuffle_Cre_20231218.sh
+  scRNA_seq_GEx_SP_T7loxShuffle_combined_20231220.R
+
+
+Generating T7-shuffle BC count matrix:
+  get_valid_set_T7BC_v3_20231220.R
+  arr_prepro_10X_T7BC_count_R2_2BC_20231206.sh
+  get_R2_2BC_T7shuffleLox_20231206.py
+  clean_up_UMI_counts_v3_20220126.R
+
+Iterative clonotype identification:
+  T7BC_clonotype_mapping_v2_3umi_20231220.R 
+  compare_bulk_vs_sc_denovo2and3umi_clonotypes_round1_T7BC_20231220.R
+  assign_cell_to_clonotypes_20231221.R
+  T7BC_clonotype_mapping_v2_3umi_round2_20231221.R
+
+Assignment of cells to clonotype:
+  assign_cell_to_clonotypes_round2_v2_w_BCs_separate_20240112.R
+  PR_analysis_round2_assignments_sep_BC_20240112.R
+
+
+
