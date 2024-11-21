@@ -1,5 +1,5 @@
-LOCUS       oSP985_loxPsym_i        3786 bp DNA     circular SYN 01-FEB-2024
-DEFINITION  synthetic circular DNA
+LOCUS       Shuffle-Cassette        3786 bp DNA     circular SYN 20-NOV-2024
+DEFINITION  synthetic circular DNA.
 ACCESSION   .
 VERSION     .
 KEYWORDS    .
@@ -8,14 +8,12 @@ SOURCE      synthetic DNA construct
 REFERENCE   1  (bases 1 to 3786)
   AUTHORS   Sudarshan Pinglay
   TITLE     Direct Submission
-  JOURNAL   Exported Feb 1, 2024 from SnapGene 6.2.2
+  JOURNAL   Exported Nov 20, 2024 from SnapGene 7.2.1
             https://www.snapgene.com
 FEATURES             Location/Qualifiers
      source          1..3786
                      /mol_type="other DNA"
                      /organism="synthetic DNA construct"
-     primer_bind     812..831
-                     /label=BII(R)
      misc_feature    870..873
                      /label=TTAA
      misc_feature    874..936
@@ -38,7 +36,7 @@ FEATURES             Location/Qualifiers
      protein_bind    1058..1091
                      /label=loxPsym
                      /bound_moiety="Cre recombinase"
-                     /note="loxPsym has a symmetric spacer region, and loxPsym 
+                     /note="loxPsym has a symmetric spacer region, and loxPsym
                      sites are capable of recombining in either orientation 
                      (Hoess et al., 1986)."
      gap             1092..1111
@@ -60,15 +58,8 @@ FEATURES             Location/Qualifiers
                      /label=13 bp Terminal Repeat (TR)
      misc_feature    1275..1278
                      /label=TTAA
-     misc_feature    complement(1481..1500)
-                     /label=Potential primer mismatch
-     primer_bind     complement(1793..1812)
-                     /label=pLac(F)
-     misc_feature    1966..1990
-                     /label=5' gibson overhang
-     misc_feature    1994..2018
-                     /label=3' gibson overhang
      misc_feature    2167..2755
+                     /label=ORI
                      /label=ORI (mismatch with STAR by 1)
      CDS             complement(2929..3786)
                      /label=Amp
