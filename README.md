@@ -1,5 +1,5 @@
 # genome-shuffle-seq
-Scripts, pipelines and sequences associated with genome shuffle seq described at: https://www.biorxiv.org/content/10.1101/2024.01.22.576756v1
+Scripts, pipelines and sequences associated with genome shuffle seq described at: [https://www.biorxiv.org/content/10.1101/2024.01.22.576756v1](https://www.biorxiv.org/content/10.1101/2024.01.22.576756v2)
 
 This repository contains:
 1. Pipeline and analysis scripts for analyzing amplicon-seq data
@@ -11,6 +11,8 @@ This repository contains:
     - This pipeline runs custom python scripts that are included within the folder
 
 3. Pipeline and analysis scripts for analyzing scRNAseq data after T7 IST, including de novo calling of clonotypes and assingment of cells to clonotypes
+
+4. Code for analysis of gene expression data from single cells containing a particular SV   
       
-4. Sequences associated with novel plasmids described in the study
+5. Sequences associated with novel plasmids described in the study
    
