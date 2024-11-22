@@ -6,7 +6,7 @@ This repository contains:
    - custom python scripts to extract barcode sequences from fastq files for libraries generated using either the 2 or 4 primer strategy as described in the methods
    - a sample input text file with the names of fastq files to be processed
 
-2. Pipeline and analysis scripts for analyzing T7 IVT-seq data for mapping insertion sites
+2. Pipeline and analysis scripts for analyzing T7 IVT-seq data for mapping insertion sites in both mESCs and K562s
     - IVT_map_sort_pipeline.sh is used to run the pipeline for analyzing and definining position of integrants from IVT-seq data.
     - This pipeline runs custom python scripts that are included within the folder
 
