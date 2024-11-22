@@ -5,8 +5,6 @@
 #$ -pe serial 1-4
 #$ -o out_K562.txt
 #$ -e out_K562.txt
-#$ -m abe
-#$ -M pinglay@uw.edu
 
 
 module load modules modules-init modules-gs
@@ -18,8 +16,8 @@ module load bedops/2.4.35
 module load bedtools/2.29.2
 
 
-rawdata="/net/shendure/vol10/projects/sud/nobackup/20240701_K562-mESC-IVT/fastq/K562/"
-index="/net/shendure/vol10/projects/sud/nobackup/index/hg38/hg38"
+rawdata="path to rawdata fastqs"
+index="path to bwa hg38 index"
 barcode_extract="IVT_extractBCs_updatedJul24.py"
 sam_filter="align_filter.py"
 bed_filter="cleanup_sort_variantcall_update_K562.py"
