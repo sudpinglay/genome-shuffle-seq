@@ -5,8 +5,6 @@
 #$ -pe serial 8
 #$ -o out_2.txt
 #$ -e out_2.txt
-#$ -m abe
-#$ -M pinglay@uw.edu
 
 
 module load modules modules-init modules-gs
@@ -18,8 +16,8 @@ module load bedops/2.4.35
 module load bedtools/2.29.2
 
 
-rawdata="/net/shendure/vol10/projects/sud/20230511_NextSeq2000_ShuffleIVT/fastq/"
-index="/net/shendure/vol10/projects/sud/index/bwa/mm10/mm10"
+rawdata="fastq files"
+index="mm10 bwa index"
 barcode_extract="IVT_extractBCs.py"
 sam_filter="align_filter.py"
 bed_filter="cleanup_sort_variantcall_update.py"
