@@ -5,9 +5,6 @@
 #$ -pe serial 1-4
 #$ -o out_mESC.txt
 #$ -e out_mESC.txt
-#$ -m abe
-#$ -M pinglay@uw.edu
-
 
 module load modules modules-init modules-gs
 module load python/3.7.7
@@ -18,8 +15,8 @@ module load bedops/2.4.35
 module load bedtools/2.29.2
 
 
-rawdata="/net/shendure/vol10/projects/sud/nobackup/20240701_K562-mESC-IVT/fastq/mESC/"
-index="/net/shendure/vol10/projects/sud/nobackup/index/bwa/mm10/mm10"
+rawdata="path to raw data, fastq"
+index="path to bwa mm10 index"
 barcode_extract="IVT_extractBCs_updatedJul24.py"
 sam_filter="align_filter.py"
 bed_filter="cleanup_sort_variantcall_update.py"
@@ -60,6 +57,3 @@ echo "Collapsing reads into groups..."
 ls mapped/*mESC*.variants.sorted.txt | cut -d"." -f 1 | parallel --gnu --halt soon,fail=1 --jobs 1 "python ${group_collapse} {}.variants.sorted.txt"
 
 rm mapped/*temp*
-
-#original name: IVT_map_sort_updated_nonparental.sh
-
