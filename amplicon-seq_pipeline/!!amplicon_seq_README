@@ -1,0 +1,16 @@
+read_extract_iterable.py/read_extract_iterable_4primers.py
+    Extracts barcodes from loxP shuffle cassette amplicon-seq data from 2-primer and 4-primer library construction strategy respectively. 
+    Inputs are fastqs with read1 containing barcode 1, read2 containing barcode 2 and a text file with list of file names.  
+
+df_group.py/df_group_4primers.py
+    From extracted barcode files and a text file with list of file names as input, groups barcode pairs and determines number of reads and UMIs per barcode pair. 
+
+samples.txt
+    example input file for scripts listed above. 
+
+amplicon_BCExtract_20240906.py
+    Consolidated script that can extract barcodes from both Cre-loxP and Bxb1-attB/P mediated shuffle cassette amplicon-seq data. 
+    After extraction, barcode pairs are grouped and number of reads and UMIs per barcode pair are determined.
+
+python_20240907.sh
+    example shell script to run amplicon_BCExtract_20240906.py. 

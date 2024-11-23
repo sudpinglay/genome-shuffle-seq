@@ -1,0 +1,17 @@
+processing_GEx: 
+To process 10x data (cellRanger) and perform initial filtering and QC of scRNA-seq data on the transcriptome captured. 
+
+processing_shuffleBC:
+To process single-cell captured T7 IVT shuffleBC data and obtain table of UMI counts by barcode and cell.
+
+iterative_clonotype_mapping: 
+To de novo identify clonotypes from correlated detections of shuffleBCs. 
+
+cell_to_clonotype_assignment: 
+To perform the  assignment of cells to clonotypes (also used in the iterative clonotype identification). 
+
+QC_barnyard_precision_recall: 
+To assess fraction of spurious shuffleBC detections from the barnyard experiment, and from high quality clonotypes. 
+
+v1_scripts:
+Similar scripts used to analyze data from the first version of the manuscript. 
